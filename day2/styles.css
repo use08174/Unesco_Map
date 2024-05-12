@@ -1,0 +1,184 @@
+/* Basic Styles for UNESCO Heritage Sites Map Website */
+body {
+    margin: 10px; 
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+main {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+footer {
+    color: #666;
+    background-color: rgb(244, 244, 233); /* 라이트 그레이 배경색 추가 */
+}
+
+nav.container-fluid {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 30px; 
+    background-color:rgb(244, 244, 233);
+    height : 50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a, nav ul li a:visited{
+    color: #333;
+    margin-right: 30px; 
+    text-decoration: none; 
+}
+
+nav ul:last-child {
+    margin-left: auto; 
+}
+
+
+main.container {
+    margin-top: 20px;
+}
+
+footer.container {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #eaeaea;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+/* Additional styling for figures and images */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+}
+
+figcaption {
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.grid {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+section, aside {
+    flex: 1;
+}
+
+aside {
+    margin-left: 20px; 
+}
+
+aside ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+aside ul li a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+    color: #333; 
+    background-color: #f4f4f4; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+}
+
+aside ul li a:hover {
+    background-color: #ddd;
+}
+
+/* 폼 스타일링 */
+#heritageForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+#heritageForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#heritageForm select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(244, 240, 233); /* 테라코타 색상으로 버튼 변경 */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: rgb(232, 232, 211); 
+}
+.form-description {
+    padding: 20px;
+    color: #333; 
+    text-align: center; 
+    margin-top: 20px; 
+    text-align: center; 
+    margin: 40px auto; 
+    width: 80%; 
+}
+
+.form-description p {
+    font-size: 18px; 
+    font-style: italic; 
+    line-height: 1.5; 
+}
+
+
+/* 결과 영역 스타일링 */
+#results {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+#results li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+#results li:last-child {
+    border-bottom: none;
+}
+
